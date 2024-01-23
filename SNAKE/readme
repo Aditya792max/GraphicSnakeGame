@@ -1,0 +1,69 @@
+The Snake Game  is a simple implementation in Java using the Swing library for the graphical user interface. Here are the key technologies we used:
+
+Technologies:
+Java:
+The core programming language used for the implementation.
+
+Java Swing Library:
+Used for creating the graphical user interface (GUI) components such as JFrame, JPanel, and handling user input.
+
+Classes:
+App.java:
+Contains the main method and initializes the game window using JFrame.
+Sets up the SnakeGame instance and adds it to the JFrame.
+
+SnakeGame.java:
+Extends JPanel to create the game board and handle graphics.
+Implements ActionListener to update the game state periodically.
+Implements KeyListener to handle user input (arrow keys).
+Contains a nested class Tile to represent individual tiles on the game board.
+Manages the snake (head and body), food, game logic, and drawing.
+
+Key Classes and Components:
+
+JFrame:
+Used to create the main window of the game.
+
+JPanel:
+Used to create the game board and handle drawing.
+
+Timer:
+Used for game loop and periodic updates.
+
+KeyListener:
+Used to handle keyboard input for controlling the snake.
+
+ActionListener:
+Used for handling actions, such as updating the game state in response to the Timer.
+
+Random:
+Used for generating random positions for placing the food.
+
+Graphics:
+Used for drawing shapes and text on the JPanel.
+
+Additional Classes:
+
+
+ArrayList:
+Used to manage the body segments of the snake.
+Font:
+Used for setting the font for displaying the score.
+
+Color:
+Used for setting colors for drawing the snake, food, and background.
+
+Game Logic:
+
+Collision Detection:
+Methods for detecting collisions between the snake's head, body, and the boundaries of the game board.
+
+Movement:
+Methods for updating the position of the snake's head and body.
+
+Food Placement:
+Method for placing the food at random locations on the game board.
+
+Game Over:
+Logic for determining when the game is over, either by colliding with the snake's body or reaching the board boundaries.
+This Snake Game demonstrates the use of core Java programming concepts along with the Swing library for creating a simple graphical game.
